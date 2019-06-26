@@ -1,5 +1,6 @@
 "placeholder for your webapp api"
 
+
 class API:
 
     def __init__(self):
@@ -8,4 +9,3 @@ class API:
 
     def register_server(self, server):
         self.server = server
-

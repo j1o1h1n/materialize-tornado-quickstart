@@ -1,11 +1,11 @@
 BASEDIR=$(CURDIR)
 DISTDIR=$(BASEDIR)/dist
 BUILDDIR=$(BASEDIR)/build
-PACKAGE='materialize-tornado-quickstart'
+PACKAGE='mywebapp'
 
 test: pep8 coverage
 
-build: 
+build:
 	@echo 'Running build'
 	@python setup.py build
 
@@ -19,10 +19,9 @@ dist:
 	@python setup.py sdist
 	@echo 'Done'
 
-install: 
+install:
 	@echo 'Running install'
 	@python setup.py install
-
 
 pep8:
 	@pep8 $(PACKAGE) --config=pep8.rc
@@ -39,4 +38,4 @@ clean:
 	@rm -fr $(DISTDIR)
 	@rm -fr $(BUILDDIR)
 
-.PHONY: help doc build test dist install clean 
+.PHONY: help doc build test dist install clean

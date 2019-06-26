@@ -15,6 +15,7 @@ logger = logging.getLogger(__name__)
 
 # WEBSOCKET
 
+
 class WSHandler(tornado.websocket.WebSocketHandler):
 
     def open(self):
@@ -94,8 +95,8 @@ if __name__ == "__main__":
 
     level = logging.DEBUG if settings['debug'] else logging.WARN
     logging.basicConfig(level=level,
-                    format="%(levelname)8s %(asctime)s %(funcName)20s:%(lineno)-5d %(message)s",
-                    datefmt='%a, %d %b %Y %H:%M:%S')
+                        format="%(levelname)8s %(asctime)s %(funcName)20s:%(lineno)-5d %(message)s",
+                        datefmt='%a, %d %b %Y %H:%M:%S')
 
     port, app, api = make_app(settings)
     server = tornado.httpserver.HTTPServer(app)
