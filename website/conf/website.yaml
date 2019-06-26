@@ -1,0 +1,9 @@
+port: 31773
+template_path: website/tmpl
+static_path: website/static
+# replace this with your mother's maiden name
+cookie_secret: A_SECRET_COOKIE
+xsrf_cookies: true
+# turn off in prod:
+autoreload: true
+debug: true
