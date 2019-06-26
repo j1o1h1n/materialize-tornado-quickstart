@@ -9,12 +9,12 @@ Installing
 
 To install the latest release from `PyPI <http://pypi.python.org/pypi/materialize-tornado-quickstart>`_
 
-```
+.. code-block:: console
+
     $ pip install materialize-tornado-quickstart
-```
 
 To install the latest development version from `GitHub <https://github.com/j1o1h1n/materialize-tornado-quickstart>`_
 
-```
+.. code-block:: console
+
     $ pip install git+git://github.com/j1o1h1n/materialize-tornado-quickstart.git
-```

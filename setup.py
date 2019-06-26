@@ -46,12 +46,12 @@ def required(filename):
 
 setup(
     name="materialize-tornado-quickstart",
-    version="1.0.0",
+    version="1.0.1",
     description="A quickstart template for a materializecss tornado webapp",
-    # long_description=rst('README.rst') + rst('CHANGELOG.txt'),
+    long_description="A quickstart template for a materializecss tornado webapp",
     author="John Lehmann",
     author_email="j1o1h1n@yahoo.com",
-    url="https://github.com/johnl/materialize-tornado-quickstart",
+    url="https://github.com/j1o1h1n/materialize-tornado-quickstart",
     license="MIT License",
     install_requires=required('requirements/base.txt'),
     setup_requires=[],
