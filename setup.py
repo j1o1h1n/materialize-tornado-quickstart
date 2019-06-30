@@ -46,9 +46,9 @@ def required(filename):
 
 setup(
     name="materialize-tornado-quickstart",
-    version="1.0.1",
+    version="1.0.2",
     description="A quickstart template for a materializecss tornado webapp",
-    long_description="A quickstart template for a materializecss tornado webapp",
+    long_description=rst("README.rst"),
     author="John Lehmann",
     author_email="j1o1h1n@yahoo.com",
     url="https://github.com/j1o1h1n/materialize-tornado-quickstart",
