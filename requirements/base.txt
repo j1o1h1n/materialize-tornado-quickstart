@@ -1,2 +1,2 @@
 tornado==6.0.2
-PyYAML==5.1.1
+PyYAML==5.4
